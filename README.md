@@ -14,7 +14,11 @@ This is an adaptation of original example provide by Maxon Motors with their Lib
 
 Available Modes :
 
-
+| Velocity Mode                                                                                                                                          | Position Mode                                                                                                                                                                                                                  |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  mode_value : is the RPM value input to the controller Allowed Range : (-104 to 104) RPM                                                               |  mode_value : is the position value ( in terms of shaft rotation) input to the controller Allowed Range : No limitations (ex: 2.5 rotations or 0.2 rotations)                                                                  |
+|  mode_parameter - optional, can pass one to control data-logging It sets the log interval for the data file Default value for log interval is 1 second |  mode_parameter - optional, can pass one/two to control RPM and data-logging It sets the RPM during position seek It sets the log interval for data file Default value for RPM is 36Default value for log interval is 1 second |
+| Termination: Controller will stay in this mode until kill signal (Ctrl+C                                                                               | Termination: Controller will exit after target position is reached, cannot force quit                                                                                                                                          |
 
 **Note:** Killing power to the controller will stop all activity and reset the module
 
