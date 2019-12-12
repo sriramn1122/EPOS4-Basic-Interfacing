@@ -2,9 +2,9 @@
 
 This is an adaptation of original example provide by Maxon Motors with their Library. This program will help getting to speed quickly with EPOS4 controllers and allow rapid prototyping and testing. 
 
-Motor : DCX22l
+Motor : DCX22L
 
-GearHead : GPX22lN
+GearHead : GPX22LN
 
 Encoder : ENX16EASY 
 
