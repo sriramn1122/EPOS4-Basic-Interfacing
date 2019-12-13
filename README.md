@@ -12,7 +12,7 @@ Encoder : ENX16EASY
 
 
 ## Instructions to build and execute command:
-1. Download and unzip file
+1. Clone Repository
 2. Navigate into folder
 3. Run make to compile the C++ file
 4. Call the executable as per the following usage guidelines
